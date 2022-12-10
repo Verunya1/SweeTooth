@@ -1,0 +1,25 @@
+/* 
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+rgba(255, 40, 180, 0.8)
+ */
+
+ *{
+    box-sizing: border-box;
+ }
+
+
+ body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.375;
+    color: #1f1f1f;
+ }
+ img {
+   max-width: 100%;
+   height: auto;
+ }
+ .no-scroll {
+   overflow: hidden;
+ }

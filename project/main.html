@@ -312,6 +312,9 @@
                 <a class="mobile-menu__link popup-close" href="about.html">О нас</a>
               </li>
               <li class="mobile-menu__li">
+                <a class="mobile-menu__link popup-close"  href="#section-info"  data-scroll-to="section-about">Факты</a>
+              </li>
+              <li class="mobile-menu__li">
                 <a class="mobile-menu__link popup-close" href="#" data-scroll-to="section-contacts">Контакты</a>
               </li>
             </ul>
@@ -331,128 +334,11 @@
   </div>
   <!-- /.popup-menu -->
   
-  <!-- popup-order
-  <div class="popup popup-order">
-    <div class="popup__wrapper">
-      <div class="popup__inner">
-        <div class="popup__content">
-          <button class="btn-close popup__btn-close popup-close"></button>
-          <h2 class="page-title popup__title">Заполните форму</h2>
-           <p class="popup__subtitle popup__subtitle--order">Мы привезем вам горячую пиццу за 50 минут</p> -->
-          <!-- <div class="order">
-            <img class="order__img" src="img/product/marmelade/6400907253.jpg" alt="">
-            <h3 class="order__title">
-              <span>Мармелад</span>
-              <span>750</span> &#8381;
-            </h3> -->
-            <!-- <p class="order__size">35 см</p> -->
-            <!-- <form class="form">
-              <input type="hidden" name="пицца">
-              <input type="hidden" name="цена">
-              <input type="hidden" name="размер">
-              <input class="form__input" type="text" name="имя" placeholder="Имя" required>
-              <input class="form__input" type="text" name="телефон" placeholder="Телефон" required>
-              <input class="form__input" type="text" name="адрес" placeholder="Адрес" required>
-              <select class="form__input" name="оплата">
-                <option value="Оплата наличными">Оплата наличными</option>
-                <option value="Оплата картой">Оплата картой</option>
-              </select>
-              <button class="btn form__btn" type="submit">Отправить</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- /.popup-order -->
-   
-  <!-- popup-thanks -->
-  <!-- <div class="popup popup-thanks">
-    <div class="popup__wrapper">
-      <div class="popup__inner">
-        <div class="popup__content">
-          <button class="btn-close popup__btn-close popup-close"></button>
-          <h2 class="page-title popup__title">Успешно отправлено</h2>
-          <p class="popup__subtitle">Мы уже начали готовить ваш заказ</p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- /.popup-thanks -->
-  
-  <!-- popup-error -->
-  <!-- <div class="popup popup-error">
-    <div class="popup__wrapper">
-      <div class="popup__inner">
-        <div class="popup__content">
-          <button class="btn-close popup__btn-close popup-close"></button>
-          <h2 class="page-title popup__title">Произошла ошибка</h2>
-          <p class="popup__subtitle">Пожалуйста, сделайте заказ по номеру <a class="popup__link" href="+79999999999">+7 (999) 999-99-99</a></p>
-        </div>
-      </div>
-    </div>
-  </div> -->
-  <!-- /.popup-error -->
 
   <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU>" type="text/javascript"></script>
 
  
-<!-- section-cart
-<section class="section section-cart">
-    <div class="container section-cart__container">
-        <h2 class="page-title">Корзина</h2>
-        <div class="cart">
-            <form class="form cart__form">
-                <div class="cart__items js-cart">
-                    <div class="cart-item cart__item">
-                        <div class="cart-item__main">
-                            <div class="cart-item__start">
-                                <button class="cart-item__btn cart-item__btn--remove js-btn-cart-item-remove" type="button"></button>
-                            </div>
-                            <div class="cart-item__img-wrapper">
-                                <img class="cart-item__img" src="img/product/marmelade/6400907253.jpg" alt="">
-                            </div>
-                            <div class="cart-item__content">
-                                <h3 class="cart-item__title">Мармелад</h3>
-                                <input type="hidden" name="1-Товар" value="Мармелад">
-                                <input type="hidden" name="1-Количество" value="1">
-                                <input type="hidden" name="1-Цена" value="750">
-                            </div>
-                        </div>
-                        <div class="cart-item__end">
-                            <div class="cart-item__actions">
-                                <button class="cart-item__btn js-btn-product-decrease-quantity" type="button">-</button>
-                                <span class="cart-item__quantity js-cart-item-quantity">1</span>
-                                <button class="cart-item__btn js-btn-product-increase-quantity" type="button">+</button>
-                            </div>
-                            <p class="cart-item__price"><span class="js-cart-item-price">750</span> P</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="cart__totals">
-                    <div>Всего элементов: <span class="js-cart-total-count-items cart__bold"></span></div>
-                    <div>Итого: <span class="cart__bold"><span class="js-cart-total-price"></span> Р</span></div>
-                </div>
-                <h3 class="title">Заполните форму</h3>
-                <div class="form__main">
-                    <input class="form__input" type="text" name="Имя" placeholder="Имя" required="">
-                    <input class="form__input" type="text" name="Телефон" placeholder="Телефон" required="">
-                    <input class="form__input" type="text" name="Адрес" placeholder="Адрес" required="">
-                    <input class="js-cart-total-price-input" type="hidden" name="Общая сумма">
-                    <select class="form__input" name="оплата">
-                        <option value="Оплата наличными">Оплата наличными</option>
-                        <option value="Оплата картой">Оплата картой</option>
-                    </select>
-                    <button class="btn form__btn" type="submit">Отправить</button>
-                </div>
-            </form>
-            <div class="cart__empty">
-                <p class="cart__info">Нет товаров</p>
-            </div>
-        </div>
-    </div>
 
-</section>
 
  /section-cart -->
  

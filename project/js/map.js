@@ -12,7 +12,7 @@
           }),
   
           myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-              balloonContent: 'Сладкоежка'
+              balloonContent: 'Сладкоежкa'
           }, {
 
             preset: 'islands#dotIcon',
